@@ -7,7 +7,7 @@
 
 
 ```
-docker build -t vdbench:5.04.01 .
+
 ```
 Congratulations you have a vdbench image ! 
 

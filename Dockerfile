@@ -7,5 +7,5 @@ RUN yum install -y  wget \
                     zip \
                     sg3_utils
 
-WORKDIR /usr/bin/
+WORKDIR /usr/bin
 

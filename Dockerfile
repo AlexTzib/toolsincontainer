@@ -4,7 +4,8 @@ FROM centos:7
 # install from REPO
 RUN yum install -y  wget \ 
                     uzip \
-                    zip
+                    zip \
+                    sg3_utils
 
 WORKDIR /usr/bin/
 

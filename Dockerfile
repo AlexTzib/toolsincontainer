@@ -5,7 +5,8 @@ FROM centos:7
 RUN yum install -y  wget \ 
                     uzip \
                     zip \
-                    sg3_utils
+                    sg3_utils \
+                    ethtool
 
 WORKDIR /usr/bin
 
